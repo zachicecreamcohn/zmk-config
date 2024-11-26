@@ -43,13 +43,13 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-command$$'}
-  - {t: '$$mdi:keyboard-tab$$', h: NUMBER}
+  - {t: '$$mdi:keyboard-tab$$', h: LOWER}
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:backspace$$', h: SYMBOL}
+  - {t: '$$mdi:backspace$$', h: RAISE}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  NUMBER:
+  LOWER:
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
   - '@'
@@ -98,7 +98,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - ':'
   - $$mdi:mouse-left-click-outline$$
-  SYMBOL:
+  RAISE:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
