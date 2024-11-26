@@ -141,10 +141,10 @@
 
         layer_4 {
             bindings = <
-&none        &kp LA(N1)  &kp LA(N2)  &kp LA(N3)  &kp LA(N4)  &kp LA(N5)    &trans  &trans         &trans         &trans         &trans         &trans  &trans
-&kp LA(TAB)  &kp LA(N6)  &kp LA(N7)  &kp LA(N8)  &kp LA(N9)  &kp LA(N5)    &trans  &kp LA(LS(H))  &kp LA(LS(J))  &kp LA(LS(K))  &kp LA(LS(L))  &trans  &trans
-&trans       &trans      &trans      &trans      &trans      &trans        &trans  &trans         &trans         &trans         &trans         &trans  &trans
-                         &trans      &trans      &trans      &trans        &trans  &trans         &trans         &trans
+&none        &kp LA(N1)  &kp LA(N2)  &kp LA(N3)  &kp LA(N4)  &kp LA(N5)    &trans  &trans     &trans     &kp LS(KP_MINUS)  &kp LS(KP_PLUS)  &trans  &trans
+&kp LA(TAB)  &kp LA(N6)  &kp LA(N7)  &kp LA(N8)  &kp LA(N9)  &kp LA(N5)    &trans  &kp LA(H)  &kp LA(J)  &kp LA(K)         &kp LA(L)        &trans  &trans
+&trans       &trans      &trans      &trans      &trans      &trans        &trans  &trans     &trans     &trans            &trans           &trans  &trans
+                         &trans      &trans      &trans      &trans        &trans  &trans     &trans     &kp RIGHT_SHIFT
                                                                            &trans
             >;
         };
