@@ -198,23 +198,23 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   '4':
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: Alt+ 1, s: Alt+ !}
-  - {t: Alt+ 2, s: Alt+ @}
-  - {t: Alt+ 3, s: 'Alt+ #'}
-  - {t: Alt+ 4, s: Alt+ $}
-  - {t: Alt+ 5, s: Alt+ %}
+  - Alt+ 6
+  - Alt+ 7
+  - Alt+ 8
+  - {t: Alt+ 9, s: Alt+ (}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Sft+ KP MINUS
-  - Sft+ KP PLUS
+  - {t: Sft+Alt+ -, s: Sft+Alt+ _}
+  - Alt+ +
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Alt+ $$mdi:keyboard-tab$$
-  - {t: Alt+ 6, s: Alt+ ^}
-  - {t: Alt+ 7, s: Alt+ &}
-  - {t: Alt+ 8, s: Alt+ *}
-  - {t: Alt+ 9, s: Alt+ (}
+  - Alt+ 1
+  - Alt+ 2
+  - Alt+ 3
+  - Alt+ 4
   - {t: Alt+ 5, s: Alt+ %}
   - {t: '$$mdi:transfer$$', type: trans}
   - Alt+ H
