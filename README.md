@@ -1,5 +1,6 @@
-if you  need the 3D modle of this  keyboard，you can  connect me by Email。380465425@qq.com
-# zmk-config-corne
+# ZMK CONFIG
+
+Based on [n3oney's port](https://github.com/n3oney/zmk-config?ref=mark.stosberg.com) of [marksto's layout](https://mark.stosberg.com/markstos-corne-3x5-1-keyboard-layout/)
 
 
 <img src="keymap-drawer/corne.svg" >
