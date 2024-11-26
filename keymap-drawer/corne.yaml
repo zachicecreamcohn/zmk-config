@@ -206,8 +206,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Sft+ KP MINUS
+  - Sft+ KP PLUS
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Alt+ $$mdi:keyboard-tab$$
@@ -217,10 +217,10 @@ layers:
   - {t: Alt+ 9, s: Alt+ (}
   - {t: Alt+ 5, s: Alt+ %}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Alt+Sft+ H
-  - Alt+Sft+ J
-  - Alt+Sft+ K
-  - Alt+Sft+ L
+  - Alt+ H
+  - Alt+ J
+  - Alt+ K
+  - Alt+ L
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -243,7 +243,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [21, 22]
