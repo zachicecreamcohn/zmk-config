@@ -52,7 +52,7 @@
     combos {
         compatible = "zmk,combos";
 
-        ESC-JK {
+        esc-jk {
             bindings = <&kp ESCAPE>;
             key-positions = <21 22>;
         };
