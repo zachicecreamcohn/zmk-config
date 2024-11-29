@@ -58,15 +58,6 @@
         };
     };
 
-    macros {
-        toggle_vim_terminal: toggle_vim_terminal {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp ESCAPE &kp T &kp SPACE &kp SEMI>;
-            label = "TOGGLE_VIM_TERMINAL";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -81,11 +72,11 @@
             //                                                      enter
 
             bindings = <
-&kp TAB           &kp Q  &kp W      &kp E        &kp R               &kp T        &kp UP_ARROW     &kp Y            &kp U                &kp I            &kp O    &kp P     &kp BSPC
-&sk LALT          &kp A  &kp S      &kp D        &kp F               &kp G        &kp DOWN_ARROW   &kp H            &kp J                &kp K            &kp L    &kp SQT   &sk RIGHT_ALT
-&sk LEFT_CONTROL  &kp Z  &kp X      &kp C        &kp V               &kp B        &kp LEFT_ARROW   &kp N            &kp M                &kp COMMA        &kp DOT  &kp FSLH  &sl 3
-                         &kp SPACE  &lt 4 COLON  &mt LEFT_GUI ENTER  &lt 1 TAB    &kp RIGHT_ARROW  &lt 2 BACKSPACE  &mt RIGHT_GUI SPACE  &sk RIGHT_SHIFT
-                                                                                  &kp ENTER
+&kp TAB           &kp Q  &kp W      &kp E            &kp R               &kp T        &kp UP_ARROW     &kp Y            &kp U                  &kp I          &kp O    &kp P     &kp BSPC
+&sk LALT          &kp A  &kp S      &kp D            &kp F               &kp G        &kp DOWN_ARROW   &kp H            &kp J                  &kp K          &kp L    &kp SQT   &sk RIGHT_ALT
+&sk LEFT_CONTROL  &kp Z  &kp X      &kp C            &kp V               &kp B        &kp LEFT_ARROW   &kp N            &kp M                  &kp COMMA      &kp DOT  &kp FSLH  &sl 3
+                         &kp SPACE  &lt 4 SEMICOLON  &mt LEFT_GUI ENTER  &lt 1 TAB    &kp RIGHT_ARROW  &lt 2 BACKSPACE  &mt RIGHT_SHIFT SPACE  &sk RIGHT_GUI
+                                                                                      &kp ENTER
             >;
 
             label = "QWERTY";
@@ -102,10 +93,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR        &kp PERCENT       &mmv MOVE_UP     &kp CARET             &kp AMPERSAND      &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSPC
-&trans  &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4      &kp NUMBER_5      &mmv MOVE_DOWN   &kp NUMBER_6          &kp N7             &kp N8        &kp N9                &kp N0                 &kp COLON
-&trans  &rgb_ug RGB_TOG  &kp TILDE     &kp GRAVE     &kp LEFT_BRACKET  &kp LEFT_BRACE    &mmv MOVE_LEFT   &kp RIGHT_BRACE       &kp RIGHT_BRACKET  &trans        &trans                &kp LEFT_GUI           &trans
-                         &kp C_MUTE    &trans        &trans            &trans            &mmv MOVE_RIGHT  &toggle_vim_terminal  &kp RIGHT_GUI      &none
+&trans  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR        &kp PERCENT       &mmv MOVE_UP     &kp CARET        &kp AMPERSAND      &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSPC
+&trans  &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4      &kp NUMBER_5      &mmv MOVE_DOWN   &kp NUMBER_6     &kp N7             &kp N8        &kp N9                &kp N0                 &kp COLON
+&trans  &rgb_ug RGB_TOG  &kp TILDE     &kp GRAVE     &kp LEFT_BRACKET  &kp LEFT_BRACE    &mmv MOVE_LEFT   &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &trans        &trans                &kp LEFT_GUI           &trans
+                         &kp C_MUTE    &trans        &trans            &trans            &mmv MOVE_RIGHT  &trans           &kp RIGHT_GUI      &none
                                                                                          &mkp LCLK
             >;
 
