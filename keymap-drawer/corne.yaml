@@ -46,8 +46,8 @@ layers:
   - {t: '$$mdi:keyboard-tab$$', h: LOWER}
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:backspace$$', h: RAISE}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: RIGHT GUI, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:keyboard-space$$', h: RIGHT GUI}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   LOWER:
   - {t: '$$mdi:transfer$$', type: trans}
