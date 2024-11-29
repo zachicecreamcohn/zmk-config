@@ -41,13 +41,13 @@ layers:
   - {t: /, s: '?'}
   - {t: FN, h: '$$mdi:gesture-tap-hold$$'}
   - $$mdi:keyboard-space$$
-  - {t: ':', h: '4'}
+  - {t: ;, h: '4', s: ':'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:keyboard-tab$$', h: LOWER}
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:backspace$$', h: RAISE}
-  - {t: '$$mdi:keyboard-space$$', h: RIGHT GUI}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: RIGHT GUI, h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   LOWER:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -94,7 +94,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - '&toggle_vim_terminal'
+  - {t: '$$mdi:transfer$$', type: trans}
   - RIGHT GUI
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:mouse-left-click-outline$$
