@@ -94,9 +94,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - COPY
-  - PASTE
+  - '&toggle_vim_terminal'
+  - RIGHT GUI
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:mouse-left-click-outline$$
   RAISE:
   - {t: '$$mdi:transfer$$', type: trans}
