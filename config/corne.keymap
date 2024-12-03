@@ -208,6 +208,7 @@
         };
 
         layer_5 {
+            display-name = "EOS";
             bindings = <
 &trans  &trans          &eos_set_white  &trans  &eos_set_red  &eos_set_tilt     &trans  &trans  &trans  &trans  &trans  &eos_set_pan  &trans
 &trans  &eos_set_amber  &trans          &trans  &trans        &eos_set_green    &trans  &trans  &trans  &trans  &trans  &trans        &trans
@@ -215,6 +216,7 @@
                         &trans          &trans  &trans        &trans            &trans  &trans  &trans  &trans
                                                                                 &trans
             >;
+            label = "EOS";
 
             sensor-bindings = <&inc_dec_kp LS(EQUAL) LS(MINUS)>;
         };
