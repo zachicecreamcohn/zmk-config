@@ -58,6 +58,64 @@
         };
     };
 
+    macros {
+        eos_set_white: eos_set_white {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp M &kp N5 &kp N0 &kp N0 &kp ENTER>;
+            label = "EOS_SET_WHITE";
+        };
+
+        eos_set_blue: eos_set_blue {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp M &kp N5 &kp N0 &kp N1 &kp ENTER>;
+            label = "EOS_SET_BLUE";
+        };
+
+        eos_set_green: eos_set_green {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp M &kp N5 &kp N0 &kp N2 &kp ENTER>;
+            label = "EOS_SET_GREEN";
+        };
+
+        eos_set_amber: eos_set_amber {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp M &kp N5 &kp N0 &kp N3 &kp ENTER>;
+            label = "EOS_SET_AMBER";
+        };
+
+        eos_set_red: eos_set_red {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp M &kp N5 &kp N0 &kp N4 &kp ENTER>;
+            label = "EOS_SET_RED";
+        };
+
+        eos_set_pan: eos_set_pan {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp M &kp N5 &kp N0 &kp N5 &kp ENTER>;
+            label = "EOS_SET_PAN";
+        };
+
+        eos_set_tilt: eos_set_tilt {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp M &kp N5 &kp N0 &kp N6 &kp ENTER>;
+            label = "EOS_SET_TILT";
+        };
+
+        eos_set_zoom: eos_set_zoom {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp M &kp N5 &kp N0 &kp N7 &kp ENTER>;
+            label = "EOS_SET_ZOOM";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -73,7 +131,7 @@
 
             bindings = <
 &kp TAB           &kp Q  &kp W      &kp E            &kp R               &kp T        &kp UP_ARROW     &kp Y            &kp U                &kp I            &kp O    &kp P     &kp BSPC
-&sk LALT          &kp A  &kp S      &kp D            &kp F               &kp G        &kp DOWN_ARROW   &kp H            &kp J                &kp K            &kp L    &kp SQT   &sk RIGHT_ALT
+&sk LALT          &kp A  &kp S      &kp D            &kp F               &kp G        &kp DOWN_ARROW   &kp H            &kp J                &kp K            &kp L    &kp SQT   &tog 5
 &sk LEFT_CONTROL  &kp Z  &kp X      &kp C            &kp V               &kp B        &kp LEFT_ARROW   &kp N            &kp M                &kp COMMA        &kp DOT  &kp FSLH  &sl 3
                          &kp SPACE  &lt 4 SEMICOLON  &mt LEFT_GUI ENTER  &lt 1 TAB    &kp RIGHT_ARROW  &lt 2 BACKSPACE  &mt RIGHT_GUI SPACE  &sk RIGHT_SHIFT
                                                                                       &kp ENTER
@@ -147,6 +205,18 @@
                                &trans            &trans            &trans            &trans        &trans  &trans     &trans     &kp RIGHT_SHIFT
                                                                                                    &trans
             >;
+        };
+
+        layer_5 {
+            bindings = <
+&trans  &trans          &eos_set_white  &trans  &eos_set_red  &eos_set_tilt     &trans  &trans  &trans  &trans  &trans  &eos_set_pan  &trans
+&trans  &eos_set_amber  &trans          &trans  &trans        &eos_set_green    &trans  &trans  &trans  &trans  &trans  &trans        &trans
+&trans  &trans          &trans          &trans  &trans        &eos_set_blue     &trans  &trans  &trans  &trans  &trans  &trans        &trans
+                        &trans          &trans  &trans        &trans            &trans  &trans  &trans  &trans
+                                                                                &trans
+            >;
+
+            sensor-bindings = <&inc_dec_kp LS(EQUAL) LS(MINUS)>;
         };
     };
 };
