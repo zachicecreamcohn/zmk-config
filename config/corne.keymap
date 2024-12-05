@@ -212,7 +212,7 @@
             bindings = <
 &trans  &trans          &eos_set_white  &trans  &eos_set_red  &eos_set_tilt     &trans  &trans  &trans  &trans  &trans  &eos_set_pan  &trans
 &trans  &eos_set_amber  &trans          &trans  &trans        &eos_set_green    &trans  &trans  &trans  &trans  &trans  &trans        &trans
-&trans  &trans          &trans          &trans  &trans        &eos_set_blue     &trans  &trans  &trans  &trans  &trans  &trans        &trans
+&trans  &eos_set_zoom   &trans          &trans  &trans        &eos_set_blue     &trans  &trans  &trans  &trans  &trans  &trans        &trans
                         &trans          &trans  &trans        &lt 1 TAB         &trans  &trans  &trans  &trans
                                                                                 &trans
             >;
