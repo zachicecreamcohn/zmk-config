@@ -297,3 +297,5 @@ layers:
 combos:
 - p: [21, 22]
   k: $$mdi:keyboard-esc$$
+- p: [16, 17]
+  k: $$mdi:apple-keyboard-command$$
