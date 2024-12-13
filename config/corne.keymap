@@ -56,6 +56,11 @@
             bindings = <&kp ESCAPE>;
             key-positions = <21 22>;
         };
+
+        mouseless-on {
+            bindings = <&kp LEFT_COMMAND>;
+            key-positions = <16 17>;
+        };
     };
 
     macros {
