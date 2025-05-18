@@ -26,7 +26,7 @@ layers:
   - K
   - L
   - {t: '''', s: '"'}
-  - {t: EOS, h: toggle}
+  - EOS
   - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
   - Z
   - X
@@ -271,7 +271,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&eos_set_zoom'
   - {t: '$$mdi:transfer$$', type: trans}
