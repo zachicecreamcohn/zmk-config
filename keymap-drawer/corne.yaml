@@ -1,4 +1,4 @@
-layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
+layout: {zmk_keyboard: corne}
 layers:
   QWERTY:
   - $$mdi:keyboard-tab$$
@@ -14,7 +14,7 @@ layers:
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
+  - $$mdi:apple-keyboard-control$$
   - A
   - S
   - D
@@ -27,7 +27,7 @@ layers:
   - L
   - {t: '''', s: '"'}
   - {t: EOS, h: toggle}
-  - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
   - Z
   - X
   - C
@@ -198,29 +198,29 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   '4':
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Alt+ 6
-  - Alt+ 7
-  - Alt+ 8
-  - {t: Alt+ 9, s: Alt+ (}
+  - Alt+6
+  - Alt+7
+  - Alt+8
+  - {t: Alt+9, s: Alt+(}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Sft+Alt+ -, s: Sft+Alt+ _}
-  - Alt+ +
+  - {t: Sft+Alt+-, s: Sft+Alt+_}
+  - Alt++
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Alt+ $$mdi:keyboard-tab$$
-  - Alt+ 1
-  - Alt+ 2
-  - Alt+ 3
-  - Alt+ 4
-  - {t: Alt+ 5, s: Alt+ %}
+  - Alt+$$mdi:keyboard-tab$$
+  - Alt+1
+  - Alt+2
+  - Alt+3
+  - Alt+4
+  - {t: Alt+5, s: Alt+%}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Alt+ H
-  - Alt+ J
-  - Alt+ K
-  - Alt+ L
+  - Alt+H
+  - Alt+J
+  - Alt+K
+  - Alt+L
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
